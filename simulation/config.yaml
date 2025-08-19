@@ -1,0 +1,67 @@
+# config.yaml
+simulation:
+  agent_num: 100
+  sample_num: 10
+  epoch_num: 3
+  max_retries: 1
+  random_seed: 42
+  prompt: |
+    Now you are acting as agent ${agent_name} on Twitter, based on the post "${trigger_news}", your role description "${role_description}", social network state "${MF}" and your memories about your friends "${memory}", determine your response.
+    Here are your available actions:
+    do_nothing(): No response.
+    post(content): Post a tweet.
+    retweet(content): Retweet with an optional comment.
+    reply(content): Reply to the post.
+    like(): Like the post.
+    
+    After considering the post, choose one action and give a thought on why you’re taking that action, followed by your score (0-10) in this format:
+    
+    Thought: your reasoning
+    Action: do_nothing()
+    Score: 0
+    
+    Thought: your reasoning
+    Action: post("your message")
+    Score: x
+    
+    Thought: your reasoning
+    Action: retweet("your message")
+    Score: x
+    
+    Thought: your reasoning
+    Action: reply("your message")
+    Score: x
+    
+    Thought: your reasoning
+    Action: like()
+    Score: x
+    
+    Please strictly follow the above format.
+    Now, based on your analysis, what will you do next?
+  mf_prompt: |
+    Your task is to summarize some active user reactions under a specific post (do nothing and an interest score below 3 represents disinterest).
+    The post: ${trigger_news}
+    Recent user reactions: ${user_actions}
+    Based on the provided information, summarize the overall user discussion from the following three aspects:
+    Stance Distribution: Are users mainly interested or disinterested?
+    Opinion Distribution: What are the main viewpoints expressed by users?
+    Action Distribution: Which types of actions do users prefer?
+    Response requirements: The response should be brief and concise, providing a summary in English, NO MORE THAN 60 words!  Directly respond with the summary, without the need to list any specific numbers.
+
+
+model:
+  model_path: "/data/liuyijun/pretrained_models/LLM-Research/Meta-Llama-3.1-8B-Instruct"
+  max_length: 768
+  max_new_tokens: 256
+  temperature: 1.0
+  batch_size: 30
+  embedding_model: '/data/liuyijun/pretrained_models/sentence-transformers/all-MiniLM-L6-v2'
+  abm_alpha: 0.6
+  abm_bc_bound: 0.6
+
+data:
+  sim_data: "../data/train_raw_demo.json"
+  profile_data: "../data/profiles_100.csv"
+  
+
+

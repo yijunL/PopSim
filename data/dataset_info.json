@@ -1,0 +1,41 @@
+{
+  "SMP_train_mini_mm_MF_time": {
+    "file_name": "SMP_train_mini_mm_MF_time.json"
+  },
+  "SMP_train_mm_MF_time": {
+    "file_name": "SMP_train_mm_MF_time.json"
+  },
+  "SMP_train_mm_MF_time2": {
+    "file_name": "SMP_train_mm_MF_time2.json"
+  },
+  "SMP_train_mm_MF_time4": {
+    "file_name": "SMP_train_mm_MF_time4.json"
+  },
+  "SMP_train_mm_MF_time6": {
+    "file_name": "SMP_train_mm_MF_time6.json"
+  },
+  "SMP_train_mm_MF_time8": {
+    "file_name": "SMP_train_mm_MF_time8.json"
+  },
+  "SMP_train_mm_v3": {
+    "file_name": "SMP_train_mm_v3.json"
+  },
+  "SMP_train_mini_mm_seq": {
+    "file_name": "SMP_train_mini_mm_seq.json"
+  },
+  "SMP_train_mm_seq": {
+    "file_name": "SMP_train_mm_seq.json"
+  },
+  "SMP_train_mini_mm_time": {
+    "file_name": "SMP_train_mini_mm_time.json"
+  },
+  "SMP_train_mm_time": {
+    "file_name": "SMP_train_mm_time.json"
+  },
+  "SMP_train_demo": {
+    "file_name": "SMP_train_demo.json"
+  },
+  "SMP_train_mini_mm_v3": {
+    "file_name": "SMP_train_mini_mm_v3.json"
+  }
+}

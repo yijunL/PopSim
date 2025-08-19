@@ -1,0 +1,6 @@
+model_name_or_path:  /data/liuyijun2/pretrained_models/LLM-Research/Llama-3.2-3B-Instruct
+adapter_name_or_path: checkpoints/llama3
+template: llama3
+infer_backend: huggingface  # choices: [huggingface, vllm]
+trust_remote_code: true
+dataset: SMP_test
