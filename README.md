@@ -36,7 +36,7 @@ Make sure you have Python >= 3.9 and the following dependencies:
    After downloading the dataset, place it into the directory: `/data/meta_data/`
 
 3. **Preprocess the Data**  
-   Run the `data_preprocess.py` script to convert the dataset into the JSON format. This will prepare the dataset for further processing:
+   Run the `data_preprocess.py` script to convert the dataset into the JSON format for further processing:
    ```bash
    python data_preprocess.py
    ```
@@ -46,7 +46,7 @@ Make sure you have Python >= 3.9 and the following dependencies:
    python data_split.py
    ```
 
-After completing these steps, your dataset will be properly prepared for use in simulations and model training.
+After completing these steps, the dataset will be properly prepared for use in simulations and model training.
 
 
 ### Running the Simulation
