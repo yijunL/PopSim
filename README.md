@@ -6,7 +6,7 @@ PopSim introduces a simulation-based paradigm for Social Media Popularity Predic
 ## 💡 Features
 * **Simulation-based Popularity Prediction:** Use LLM-based multi-agent social network sandbox to simulate UGC propagation dynamics for popularity prediction.
 * **Social-Mean-Field-based Agent Interaction:** Model agent interactions with social-mean-field mechanism for more effective simulation.
-* **Multimodal Contextualization:** Transform heterogeneous social metadata into a uniform formulation, facilitating a more nuanced understanding by LLMs.
+* **Multi-source Information Aggregation:** Transform heterogeneous social metadata into a uniform formulation, facilitating a more nuanced understanding by LLMs.
 * **State-of-the-art Performance:** Outperforms tradictional inductive-based methods in the SMPP task.
 
 ## 🚀 Getting Started
