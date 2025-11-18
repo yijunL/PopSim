@@ -1,7 +1,7 @@
 # PopSim: Social Network Simulation for Social Media Popularity Prediction
 
 ## 🤖 Introduction
-PopSim introduces a simulation-based paradigm for Social Media Popularity Prediction (SMPP). Unlike traditional feature-engineering approaches, PopSim leverages the reasoning and generative capabilities of large language models (LLMs) to simulate the propagation dynamics of user-generated content (UGC), improving prediction accuracy. It incorporates agent-based modeling to simulate interactions among users and UGC in social networks, capturing the complex, nonlinear dynamics of content propagation.
+PopSim introduces a simulation-based paradigm for Social Media Popularity Prediction (SMPP). Unlike traditional inductive-based approaches, Unlike the inductive paradigm, PopSim leverages the large language models (LLMs)-based multi-agent social network sandbox to simulate user-generated content (UGC) propagation dynamics for popularity prediction. It incorporates agent-based modeling to simulate interactions among users and UGC in social networks, capturing the complex, nonlinear dynamics of UGC propagation.
 
 ## 💡 Features
 * **Simulation-based Popularity Prediction:** Use LLM-based multi-agent social network sandbox to simulate UGC propagation dynamics for popularity prediction.
